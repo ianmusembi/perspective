@@ -29,7 +29,7 @@ black = (0, 0, 0, 255)
 skyBlue = (0,191,255)
 
 SCREEN = pygame.display.set_mode((1280,720))
-BACKGROUND_IMAGE = "images/homescreen.png"
+BACKGROUND_IMAGE = "images/homescreen2.png"
 
 
 def main_menu(screen):
