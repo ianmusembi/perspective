@@ -38,7 +38,7 @@ class Button():
         
         self.base_color, self.hovering_color = base_color, hovering_color
         self.text = text
-        self.buttonText = self.font.render(self.text, True, self.base_color, grey)
+        self.buttonText = self.font.render(self.text, True, self.base_color)
 
         if self.image is None:
             self.image = self.buttonText
